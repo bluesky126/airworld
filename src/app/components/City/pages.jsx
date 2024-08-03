@@ -84,7 +84,7 @@ const City = () => {
     });
 
     // Add road
-    loader.load('/models/jalan.glb', (gltf) => {
+    loader.load('/models/Jalan.glb', (gltf) => {
       const road = gltf.scene;
       road.position.set(0, 0, 0); // Adjust position as needed
       scene.add(road);
