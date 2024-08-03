@@ -1,0 +1,19 @@
+{
+  "name": "airworld",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^25.0.0",
+    "gsap": "^3.12.5",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "three": "^0.167.1"
+  }
+}
